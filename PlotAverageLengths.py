@@ -11,7 +11,7 @@ def average(numList):
 4) The average male name length in the year.
 '''
 def readInYear(year):
-    filename = "yob" + str(year) + ".txt"
+    filename = "years/yob" + str(year) + ".txt"
     namesFile = open(filename, "r")
     nameEntries = namesFile.readlines()
 
